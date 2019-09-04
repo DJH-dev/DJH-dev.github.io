@@ -31,10 +31,34 @@ a {
   text-transform: uppercase;
 }
 
+.header-nav a:hover,
+.header-nav a:active {
+  color: #ed6e2f;
+}
+
+.header-logo:hover,
+.header-logo:active {
+  opacity: 0.5;
+}
+
+.header-nav > li:first-child a {
+  color: #ed6e2f;
+}
+
+.header-nav > li:first-child a:hover {
+  color: #000;
+}
+
+
+
 /* HERO STYLES */
 .full-hero {
   background-color: #c7dbfc;
   height: 50vh;
+}
+
+.full-hero:hover {
+  background-color: lightblue;
 }
 
 /* SOCIAL STYLES */
@@ -54,6 +78,11 @@ a {
   text-decoration: none;
   vertical-align: middle;
   width: 2.5em;
+}
+
+.social-link:hover,
+.social-link:active {
+  background: #0000cf;
 }
 
 .social-list {
