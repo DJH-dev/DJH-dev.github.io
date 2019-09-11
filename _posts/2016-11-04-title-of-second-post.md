@@ -1,6 +1,7 @@
 ---
 layout: post
-title: This is the title of the post
+title: Call me Ishmael
+description: a blog post about little to no money
 postHero: /images/shark.jpg
 author: Me, Myself, and I
 authorTwitter: https://twitter.com/mhartl
